@@ -1,1 +1,178 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summit Precision Industries</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f7f6f2;
+    color: #222;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  /* Orange Banner */
+  header {
+    background-color: #e85d04;
+    color: #fff;
+    padding: 1.8rem 1.5rem;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.3rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    font-weight: 300;
+  }
+
+  /* Main content */
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #1a1a1a;
+  }
+
+  .intro p {
+    color: #444;
+    font-size: 1.05rem;
+  }
+
+  /* Subsidiary cards – magazine style */
+  .subsidiaries {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #e5e4df;
+    padding: 2rem 1.8rem;
+    transition: border-color 0.2s ease;
+  }
+
+  .card:hover {
+    border-color: #e85d04;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: #1a1a1a;
+  }
+
+  .card p {
+    color: #555;
+    margin-bottom: 1.4rem;
+    font-size: 0.98rem;
+  }
+
+  .card a {
+    display: inline-block;
+    color: #e85d04;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .card a:hover {
+    border-bottom-color: #e85d04;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2.5rem 1.5rem 3rem;
+    color: #777;
+    font-size: 0.85rem;
+    border-top: 1px solid #e5e4df;
+    margin-top: 2rem;
+  }
+
+  /* Responsive */
+  @media (min-width: 640px) {
+    header h1 {
+      font-size: 2.3rem;
+    }
+
+    .subsidiaries {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 900px) {
+    main {
+      padding: 3.5rem 2rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Summit Precision Industries</h1>
+  <p>Parent company of MogulWorks & TunnelMotor</p>
+</header>
+
+<main>
+  <section class="intro">
+    <h2>Precision. Performance. Partnership.</h2>
+    <p>Summit Precision Industries is the parent organization behind specialized engineering and manufacturing brands focused on excellence, reliability, and long-term value.</p>
+  </section>
+
+  <section class="subsidiaries">
+    <article class="card">
+      <h3>MogulWorks</h3>
+      <p>Advanced manufacturing and precision engineering solutions. Delivering high-performance components and systems for demanding applications.</p>
+      <a href="https://mogulworks.co" target="_blank" rel="noopener">Visit MogulWorks →</a>
+    </article>
+
+    <article class="card">
+      <h3>TunnelMotor</h3>
+      <p>Specialized motor and drive technology. Engineering robust, efficient solutions for industrial and performance environments.</p>
+      <a href="https://tunnelmotor.net" target="_blank" rel="noopener">Visit TunnelMotor →</a>
+    </article>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Summit Precision Industries. All rights reserved.
+</footer>
+
+</body>
+</html>
